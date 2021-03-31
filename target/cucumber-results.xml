@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.248">
+<testcase classname="Amazon Search" name="Verify Search Results" time="20.063">
+<system-out><![CDATA[Given I launch Chrome browser...............................................passed
+When I Open Amazon Home Page................................................passed
+And Search for mobile.......................................................passed
+Then Search results for mobile should be displayed..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

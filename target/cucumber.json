@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-12T04:49:03.620Z",
+        "line": 3,
+        "name": "Verify Search Results",
+        "description": "",
+        "id": "amazon-search;verify-search-results",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4210000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch Chrome browser",
+            "match": {
+              "location": "Steps.AmazonSearchSteps.i_launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5086000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open Amazon Home Page",
+            "match": {
+              "location": "Steps.AmazonSearchSteps.i_Open_Amazon_Home_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10617000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search for mobile",
+            "match": {
+              "location": "Steps.AmazonSearchSteps.search_for_mobile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search results for mobile should be displayed",
+            "match": {
+              "location": "Steps.AmazonSearchSteps.search_results_for_mobile_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Search",
+    "description": "",
+    "id": "amazon-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/AmazonSearch.feature",
+    "tags": []
+  }
+]

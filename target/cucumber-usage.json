@@ -1,0 +1,74 @@
+[
+  {
+    "source": "I launch Chrome browser",
+    "steps": [
+      {
+        "name": "I launch Chrome browser",
+        "aggregatedDurations": {
+          "median": 0.21,
+          "average": 0.21
+        },
+        "durations": [
+          {
+            "duration": 0.21,
+            "location": "file:///Users/abhishek/Downloads/cucumber-sample/src/test/java/Features/AmazonSearch.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Open Amazon Home Page",
+    "steps": [
+      {
+        "name": "I Open Amazon Home Page",
+        "aggregatedDurations": {
+          "median": 0.086,
+          "average": 0.086
+        },
+        "durations": [
+          {
+            "duration": 0.086,
+            "location": "file:///Users/abhishek/Downloads/cucumber-sample/src/test/java/Features/AmazonSearch.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Search for mobile",
+    "steps": [
+      {
+        "name": "Search for mobile",
+        "aggregatedDurations": {
+          "median": 0.617,
+          "average": 0.617
+        },
+        "durations": [
+          {
+            "duration": 0.617,
+            "location": "file:///Users/abhishek/Downloads/cucumber-sample/src/test/java/Features/AmazonSearch.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Search results for mobile should be displayed",
+    "steps": [
+      {
+        "name": "Search results for mobile should be displayed",
+        "aggregatedDurations": {
+          "median": 0.032,
+          "average": 0.032
+        },
+        "durations": [
+          {
+            "duration": 0.032,
+            "location": "file:///Users/abhishek/Downloads/cucumber-sample/src/test/java/Features/AmazonSearch.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

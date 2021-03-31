@@ -1,0 +1,6 @@
+
+Scenario: Verify Search Results                      [90m# src/test/java/Features/AmazonSearch.feature:3[0m
+  [32mGiven [0m[32mI launch Chrome browser[0m                      [90m# Steps.AmazonSearchSteps.i_launch_Chrome_browser()[0m
+  [32mWhen [0m[32mI Open Amazon Home Page[0m                       [90m# Steps.AmazonSearchSteps.i_Open_Amazon_Home_Page()[0m
+  [32mAnd [0m[32mSearch for mobile[0m                              [90m# Steps.AmazonSearchSteps.search_for_mobile()[0m
+  [32mThen [0m[32mSearch results for mobile should be displayed[0m [90m# Steps.AmazonSearchSteps.search_results_for_mobile_should_be_displayed()[0m
